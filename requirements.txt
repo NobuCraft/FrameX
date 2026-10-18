@@ -1,0 +1,6 @@
+# Python 3.10+ (Windows x64 recommended). tkinter is part of the Python installer.
+psutil>=5.9.8,<8
+# Pinned: themed Windows tray uses the backend WM_NOTIFY bridge.
+pystray==0.19.5
+Pillow>=10.4,<13
+nvidia-ml-py>=12.560.30,<14

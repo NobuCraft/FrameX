@@ -1,0 +1,29 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Build output; keep FrameX.spec tracked
+build/
+dist/
+release/
+installer/payload-files.nsh
+
+# Local settings, temporary files and secrets
+*.log
+*.tmp
+.env
+.env.*
+!.env.example
+settings.json
+test-results.txt
+*.pem
+*.pfx
+*.p12
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
